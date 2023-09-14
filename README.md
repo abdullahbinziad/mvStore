@@ -1,1 +1,1 @@
-This is  Multivendor eCommerce pplication , 
+This is  Multivendor eCommerce application , 

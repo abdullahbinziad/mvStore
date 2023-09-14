@@ -1,8 +1,8 @@
 import axios from 'axios'
-const local = 'http://localhost:5000'
-const production = ''
+// const local = 'https://mvstore-server.onrender.com'
+const production = 'https://mvstore-server.onrender.com'
 const api = axios.create({
-    baseURL: `${local}/api`,
+    baseURL: `${production}/api`,
     withCredentials : true
 })
 export default api

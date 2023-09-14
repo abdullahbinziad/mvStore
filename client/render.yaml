@@ -1,0 +1,8 @@
+buildCommand: npm run build
+environment:
+  NODE_ENV: production
+services:
+  - name: web
+    routes:
+      - type: http
+        sourcePath: /   # Your app will be accessible from the root path

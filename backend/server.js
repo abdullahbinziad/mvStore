@@ -13,7 +13,7 @@ const socket = require('socket.io')
 const server = http.createServer(app)
 
 app.use(cors({
-    origin: ['https://mv-store-client.vercel.app/'],
+    origin: ['https://mv-store-client.vercel.app/','https://mv-store-dashboard.vercel.app/'],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true
 }))
